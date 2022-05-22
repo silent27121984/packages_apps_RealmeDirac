@@ -47,6 +47,7 @@
         android:entryValues="@array/scenario_selector_values"
         android:defaultValue="4"
         android:title="@string/music_headset_scenario_select"
-        android:summary="%s" />
+        android:summary="%s"
+        android:icon="@drawable/ic_scene" />
 
 </PreferenceScreen>
