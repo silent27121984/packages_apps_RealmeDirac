@@ -20,6 +20,8 @@ package com.realme.dirac;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import androidx.preference.PreferenceManager;
 import android.util.Log;
 
 import com.realme.dirac.DiracUtils;
@@ -28,6 +30,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(final Context context, Intent intent) {
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
         new DiracUtils(context).onBootCompleted();
     }
 }
