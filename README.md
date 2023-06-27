@@ -6,16 +6,17 @@ RealmeDirac is an open-source Android application written in java. RealmeDirac i
 RealmeDirac offers various sound modes & features. You can grab a quick view of them in the Images below:
 
 <p align="center">
-  <img src="assets/RealmeDirac1.jpg">
+  <img src="assets/RealmeDirac1.png">
 </p>
 
 <p align="center">
-  <img src="assets/RealmeDirac2.jpg">
+  <img src="assets/RealmeDirac2.png">
 </p>
 
 ### Here is Complete list of features offered by realmeDirac ###
 * Custom Sound Profiles
 * Options to Choose headphone type
+* Options to choose profile scenes
 * QS Tile for Ease of Access
 
 
